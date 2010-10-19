@@ -5852,3 +5852,217 @@ ActionController::RoutingError (No route matches "/searches" with {:method=>:get
   /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing InsidersController#index (for 127.0.0.1 at 2010-10-19 13:24:13) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/insiders
+Rendering insiders/index
+Completed in 39ms (View: 34, DB: 1) | 200 OK [http://0.0.0.0/insiders?locale=vn]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing InsidersController#index (for 127.0.0.1 at 2010-10-19 13:24:15) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/insiders
+Rendering insiders/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/insiders?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-19 13:24:17) [GET]
+  Parameters: {"locale"=>"vn"}
+
+ActionController::RoutingError (No route matches "/about" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:24:20) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-19 13:24:26) [GET]
+  Parameters: {"locale"=>"vn"}
+
+ActionController::RoutingError (No route matches "/video" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-19 13:24:28) [GET]
+  Parameters: {"locale"=>"vn"}
+
+ActionController::RoutingError (No route matches "/forums" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-19 13:25:31) [GET]
+  Parameters: {"locale"=>"vn"}
+
+ActionController::RoutingError (No route matches "/about" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:25:33) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing InsidersController#index (for 127.0.0.1 at 2010-10-19 13:25:35) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/insiders
+Rendering insiders/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/insiders?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:25:45) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:26:36) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:26:38) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing InsidersController#index (for 127.0.0.1 at 2010-10-19 13:26:40) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/insiders
+Rendering insiders/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/insiders?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:26:42) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:26:43) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:26:44) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:26:46) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:26:46) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:26:59) [GET]
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard]
