@@ -1,15 +1,22 @@
-%img{:height => "87", :longdesc => "http://www.edisonnation/vn", :src => "image/header.gif", :width => "1122"}/
-
-%table{:border => "1", :cellpadding => "0", :cellspacing => "0", :width => "1122"}
-  %tr
-    %td{:align => "center", :bgcolor => "#B5D1FA",:width => "120"} Dashboard
-    %td{:align => "center", :bgcolor => "#B5D1FA",:width => "69"} Insider
-    %td{:align => "center", :bgcolor => "#B5D1FA",:width => "201"} Tiểu sử của chúng tôi
-    %td{:align => "center", :bgcolor => "#B5D1FA",:width => "84"} Tìm Kiếm
-    %td{:align => "center", :bgcolor => "#B5D1FA",:width => "152"} Gương Thành Công
-    %td{:align => "center", :bgcolor => "#B5D1FA",:width => "113"} Diễn Đàn
-    %td{:align => "center", :bgcolor => "#B5D1FA",:width => "81"} Blog
-    %td{:align => "center", :bgcolor => "#B5D1FA",:width => "61"} Video
-    %td{:align => "center", :bgcolor => "#B5D1FA",:width => "170"} Cá Nhân &amp; Hội Đoàn
-    %td{:align => "center", :bgcolor => "#B5D1FA",:width => "100"} Mua Hàng
-  
+<table width="1122" border="1" bgcolor="#D5D5D5" cellpadding="0" cellspacing="0">
+%tr
+  %td{:align => "center", :width => "120"}
+    %a.navigate{:href => "./dashboard?locale=vn"} Dashboard
+  %td{:align => "center", :width => "69"}
+    %a.navigate{:href => "./insiders?locale=vn"} Insiders
+  %td{:align => "center", :width => "201"}
+    %a.navigate{:href => "about?locale=vn"} Chúng tôi là ai
+  %td{:align => "center", :width => "84"}
+    %a.navigate{:href => "searches?locale=vn"} Tìm Kiếm
+  %td{:align => "center", :width => "152"}
+    %a.navigate{:href => "sucess-stories?locale=vn"} Gương Thành Công
+  %td{:align => "center", :width => "113"}
+    %a.navigate{:href => "forums?locale=vn"} Diễn Đàn
+  %td{:align => "center", :width => "81"}
+    %a.navigate{:href => "http://vn_blog.edisonnation.com"} Blog
+  %td{:align => "center", :width => "61"}
+    %a.navigate{:href => "video?locales=vn"} Videos
+  %td{:align => "center", :width => "200"}
+    %a.navigate{:href => "people_and_groups?locale=vn"} Cá Nhân &amp; Hội Đoàn
+  %td{:align => "center", :width => "100"}
+    %a.navigate{:href => "shop?locale=vn"} Mua Hàng
