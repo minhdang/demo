@@ -1,0 +1,2 @@
+module PeopleAndGroupHelper
+end

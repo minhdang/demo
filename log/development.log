@@ -6066,3 +6066,1243 @@ Processing DashboardController#index (for 127.0.0.1 at 2010-10-19 13:26:59) [GET
 Rendering template within layouts/dashboard
 Rendering dashboard/index
 Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-19 13:52:48) [GET]
+  Parameters: {"locale"=>"vn"}
+
+ActionController::RoutingError (No route matches "/ideas/new" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-19 13:52:55) [GET]
+Rendering welcome/index
+Completed in 30ms (View: 25, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing InsidersController#index (for 127.0.0.1 at 2010-10-19 13:52:59) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/insiders
+Rendering insiders/index
+Completed in 74ms (View: 70, DB: 1) | 200 OK [http://0.0.0.0/insiders?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 08:29:44) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 46ms (View: 41, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 08:29:45) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 08:31:11) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 08:31:11) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 08:31:14) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 08:31:14) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 08:32:10) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 25ms (View: 21, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 08:32:10) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 08:50:53) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 08:50:53) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-20 08:51:08) [GET]
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 41ms (View: 36, DB: 1) | 200 OK [http://localhost/dashboard]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing InsidersController#index (for 127.0.0.1 at 2010-10-20 08:51:13) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/insiders
+Rendering insiders/index
+Completed in 125ms (View: 121, DB: 1) | 200 OK [http://localhost/insiders?locale=vn]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-20 08:51:15) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 08:51:17) [GET]
+  Parameters: {"locale"=>"vn"}
+
+ActionController::RoutingError (No route matches "/about" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 08:54:31) [GET]
+
+ActionController::RoutingError (No route matches "/forums" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 08:54:39) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 08:54:39) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 08:57:13) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 08:57:14) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 08:57:37) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 08:59:12) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #11 of app/views/layouts/welcome.html.haml:
+8: 
+9: <body>
+10: <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="600" height="70">
+11:   <param name="movie" value="FLASH/edison-nation.swf" />
+12:   <param name="quality" value="high" />
+13:   <param name="wmode" value="opaque" />
+14:   <param name="swfversion" value="6.0.65.0" />
+
+    app/views/layouts/welcome.html.haml:11
+    haml (2.2.4) lib/haml/precompiler.rb:312:in `push_plain'
+    haml (2.2.4) lib/haml/precompiler.rb:246:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (92.2ms)
+Rendered rescues/_request_and_response (2.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 08:59:51) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #10 of app/views/layouts/welcome.html.haml:
+7: </head>
+8: <body>
+9: <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="600" height="70">
+10:   <param name="movie" value="FLASH/edison-nation.swf" />
+11:   <param name="quality" value="high" />
+12:   <param name="wmode" value="opaque" />
+13:   <param name="swfversion" value="6.0.65.0" />
+
+    app/views/layouts/welcome.html.haml:10
+    haml (2.2.4) lib/haml/precompiler.rb:312:in `push_plain'
+    haml (2.2.4) lib/haml/precompiler.rb:246:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (182.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 09:07:05) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 25ms (View: 20, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 09:07:05) [GET]
+
+ActionController::RoutingError (No route matches "/Scripts/swfobject_modified.js" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 09:07:06) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+/!\ FAILSAFE /!\  Wed Oct 20 09:46:40 -0700 2010
+  Status: 500 Internal Server Error
+  /Users/minhdang/workspace/demo/app/helpers/application_helper.rb:4: syntax error, unexpected tDOT3, expecting kEND
+/Users/minhdang/workspace/demo/app/helpers/application_helper.rb:15: syntax error, unexpected tDOT3, expecting kEND
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:197:in `default_helper_module!'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:212:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:212:in `inherited'
+    /Users/minhdang/workspace/demo/app/controllers/application_controller.rb:4
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+/!\ FAILSAFE /!\  Wed Oct 20 09:46:52 -0700 2010
+  Status: 500 Internal Server Error
+  /Users/minhdang/workspace/demo/app/helpers/application_helper.rb:4: syntax error, unexpected tDOT3, expecting kEND
+/Users/minhdang/workspace/demo/app/helpers/application_helper.rb:15: syntax error, unexpected tDOT3, expecting kEND
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:197:in `default_helper_module!'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:212:in `__send__'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:212:in `inherited'
+    /Users/minhdang/workspace/demo/app/controllers/application_controller.rb:4
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+/!\ FAILSAFE /!\  Wed Oct 20 09:47:33 -0700 2010
+  Status: 500 Internal Server Error
+  /Users/minhdang/workspace/demo/app/helpers/welcome_helper.rb:3: syntax error, unexpected tDOT3, expecting kEND
+/Users/minhdang/workspace/demo/app/helpers/welcome_helper.rb:11: syntax error, unexpected tDOT3, expecting kEND
+  ...        
+     ^
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:224:in `depend_on'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:136:in `require_dependency'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:126:in `helper'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:120:in `helper'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/helpers.rb:115:in `helper'
+    /Users/minhdang/workspace/demo/app/controllers/application_controller.rb:5
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:380:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-20 09:48:20) [GET]
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 09:48:36) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 09:48:36) [GET]
+
+ActionController::RoutingError (No route matches "/Scripts/swfobject_modified.js" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 09:48:36) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 09:54:23) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 25ms (View: 20, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 09:54:23) [GET]
+
+ActionController::RoutingError (No route matches "/Scripts/swfobject_modified.js" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 09:54:23) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 09:57:18) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 22ms (View: 17, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 09:57:19) [GET]
+
+ActionController::RoutingError (No route matches "/Scripts/swfobject_modified.js" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 09:57:19) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 10:04:02) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 24ms (View: 19, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 10:04:02) [GET]
+
+ActionController::RoutingError (No route matches "/Scripts/swfobject_modified.js" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 10:04:02) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 10:05:54) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-20 10:05:58) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing InsidersController#index (for 127.0.0.1 at 2010-10-20 10:06:01) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/insiders
+Rendering insiders/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/insiders?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-20 10:06:02) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-20 10:06:03) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing InsidersController#index (for 127.0.0.1 at 2010-10-20 10:06:04) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/insiders
+Rendering insiders/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/insiders?locale=vn]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 10:06:04) [GET]
+  Parameters: {"locale"=>"vn"}
+
+ActionController::RoutingError (No route matches "/about" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DashboardController#index (for 127.0.0.1 at 2010-10-20 10:06:07) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/dashboard
+Rendering dashboard/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/dashboard?locale=vn]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing InsidersController#index (for 127.0.0.1 at 2010-10-20 10:06:08) [GET]
+  Parameters: {"locale"=>"vn"}
+Rendering template within layouts/insiders
+Rendering insiders/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/insiders?locale=vn]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 10:07:07) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #11 of app/views/layouts/welcome.html.haml:
+8: 
+9: <body>
+10: <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="600" height="70">
+11:   <param name="movie" value="FLASH/edison-nation.swf">
+12:   <param name="quality" value="high">
+13:   <param name="wmode" value="opaque">
+14:   <param name="swfversion" value="6.0.65.0">
+
+    app/views/layouts/welcome.html.haml:11
+    haml (2.2.4) lib/haml/precompiler.rb:312:in `push_plain'
+    haml (2.2.4) lib/haml/precompiler.rb:246:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (89.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ForumsController#index (for 127.0.0.1 at 2010-10-20 11:14:08) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  haml (2.2.4) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 11:14:46) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+
+ActionView::TemplateError (Unbalanced brackets.) on line #28 of app/views/layouts/welcome.html.haml:
+25:                             %h4 Content on this page requires a newer version of Adobe Flash Player.
+26:                             %p
+27:                               %a{:href => "http://www.adobe.com/go/getflashplayer"}
+28:                                 %img{:alt => "Get Adobe Flash player", :height => "33", :src => "http://www.adobe.com/images/shared/download_buttons
+
+    app/views/layouts/welcome.html.haml:28
+    haml (2.2.4) lib/haml/precompiler.rb:940:in `balance'
+    haml (2.2.4) lib/haml/precompiler.rb:551:in `parse_old_attributes'
+    haml (2.2.4) lib/haml/precompiler.rb:521:in `parse_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:641:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:204:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (96.9ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 11:17:24) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 24ms (View: 19, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 11:17:24) [GET]
+
+ActionController::RoutingError (No route matches "/Scripts/swfobject_modified.js" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 11:17:24) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation2.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 11:29:22) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 48ms (View: 43, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (3.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 11:29:22) [GET]
+
+ActionController::RoutingError (No route matches "/Scripts/swfobject_modified.js" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 11:29:22) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation2.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-10-20 11:29:27) [GET]
+Rendering template within layouts/welcome
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 11:29:27) [GET]
+
+ActionController::RoutingError (No route matches "/Scripts/swfobject_modified.js" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-20 11:29:27) [GET]
+
+ActionController::RoutingError (No route matches "/FLASH/edison-nation2.swf" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ForumsController#index (for 127.0.0.1 at 2010-10-20 11:29:33) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  haml (2.2.4) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ForumsController#index (for 127.0.0.1 at 2010-10-20 11:29:40) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  haml (2.2.4) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ForumsController#index (for 127.0.0.1 at 2010-10-20 11:30:30) [GET]
+
+ActionView::MissingTemplate (Missing template forums/index.erb in view path app/views):
+  haml (2.2.4) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ForumsController#index (for 127.0.0.1 at 2010-10-20 11:31:27) [GET]
+
+ActionView::MissingTemplate (Missing template forums/index.erb in view path app/views):
+  haml (2.2.4) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ForumsController#index (for 127.0.0.1 at 2010-10-20 11:32:30) [GET]
+Rendering forums/index
+Completed in 18ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/forums]

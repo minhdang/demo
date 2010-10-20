@@ -1,0 +1,2 @@
+class PeopleAndGroupController < ApplicationController
+end
